@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Natures Call — скачать игру</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(160deg, #0b1a10 0%, #10241a 60%, #0b1a10 100%);
+  color: #d8e6d8;
+  min-height: 100vh;
+}
+.header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 18px 40px; border-bottom: 1px solid #1e3a28; background: rgba(8, 20, 13, 0.85);
+}
+.logo { font-size: 22px; font-weight: 700; color: #6fd06f; letter-spacing: 1px; }
+.logo span { color: #e8f5e8; }
+.container {
+  max-width: 1100px; margin: 40px auto; padding: 0 24px;
+  display: flex; gap: 32px; align-items: flex-start;
+}
+.main-col { flex: 1 1 620px; }
+.side-col { flex: 0 0 300px; }
+.hero { padding-top: 24px; }
+.hero h1 { font-size: 44px; color: #6fd06f; margin-bottom: 10px; }
+.hero p.sub { font-size: 18px; color: #a9c7a9; margin-bottom: 28px; }
+.btn-big {
+  display: inline-block; background: #3f9d3f; color: #fff; font-size: 20px;
+  font-weight: 700; padding: 16px 34px; border-radius: 10px;
+  text-decoration: none; transition: background 0.2s;
+}
+.btn-big:hover { background: #4db54d; }
+.panel {
+  background: rgba(14, 30, 20, 0.9); border: 1px solid #1e3a28;
+  border-radius: 14px; padding: 20px;
+}
+.panel h2 { font-size: 20px; color: #6fd06f; margin-bottom: 14px; }
+.version {
+  display: flex; justify-content: space-between; align-items: center;
+  background: #0c1f15; border: 1px solid #244433; border-radius: 10px;
+  padding: 14px 16px; margin-bottom: 10px; text-decoration: none;
+}
+.version .name { color: #e8f5e8; font-weight: 600; font-size: 16px; }
+.version:hover { border-color: #6fd06f; }
+.content { max-width: 780px; margin: 40px auto; padding: 0 24px; }
+.content h1 { color: #6fd06f; font-size: 34px; margin: 10px 0 20px; }
+.content p { line-height: 1.65; margin-bottom: 16px; font-size: 16.5px; }
+.content h2 { color: #6fd06f; font-size: 24px; margin: 30px 0 14px; }
+table.controls { width: 100%; border-collapse: collapse; margin-top: 8px; }
+table.controls td, table.controls th {
+  border: 1px solid #244433; padding: 9px 12px; font-size: 15px; text-align: left;
+}
+table.controls th { background: #0c1f15; color: #9fd89f; }
+.btn-row { display: flex; gap: 14px; margin: 26px 0 8px; flex-wrap: wrap; }
+.btn {
+  display: inline-block; background: #3f9d3f; color: #fff; font-weight: 700;
+  padding: 13px 26px; border-radius: 9px; text-decoration: none; transition: background 0.2s;
+}
+.btn:hover { background: #4db54d; }
+.btn.secondary { background: #1e3a28; color: #cfe8cf; }
+.btn.secondary:hover { background: #2a4d38; }
+.screenshot { max-width: 100%; border-radius: 12px; border: 1px solid #244433; margin-top: 24px; }
+.footer { text-align: center; padding: 30px; color: #5f7a63; font-size: 14px; }
+@media (max-width: 860px) {
+  .container { flex-direction: column; }
+  .side-col { order: -1; width: 100%; flex: none; }
+  .hero h1 { font-size: 32px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo">Natures <span>Call</span></div>
+</div>
+
+<div class="container">
+  <div class="main-col">
+    <div class="hero">
+      <h1>Natures Call</h1>
+      <p class="sub">Игра про блоки, выживание и приключения. Копайте, стройте, исследуйте — от цветущих лугов до тёмных пещер и измерения Пустоты.</p>
+      <a class="btn-big" href="https://github.com/Duplika/NCature-s_call/releases/download/v6/NaturesCall_v6.zip">Скачать последнюю версию</a>
+    </div>
+  </div>
+
+  <div class="side-col">
+    <div class="panel">
+      <h2>Версии</h2>
+      <a class="version" href="version6.html">
+        <span class="name">Natures Call 6</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="footer">Natures Call — игра в стиле песочницы с блоками</div>
+
+</body>
+</html>
